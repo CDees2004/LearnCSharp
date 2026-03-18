@@ -1,0 +1,106 @@
+C# consists of native built in language features like keywords and construct.
+.Net is methods and classes requiring a namespace to be stated.
+
+Namespaces are containers to group related code like classes, structs, and enums.
+ 
+C# is typed in PascalCase typically. 
+
+C# supports regions of code using #region Name and #endregion which allows you 
+to collapse regions of code in visual studio. 
+
+Types: 
+	byte 
+	sbyte
+	short 
+	ushort
+	int
+	uint
+	long
+	ulong
+	float
+	double
+	decimal
+	char
+	string
+	bool
+	object 
+	
+Attaching a suffix to a numeric constant is a quick way of converting the 
+default type of the value.
+f = float 
+d = double 
+m = decimal
+L = long (not l, looks like a 1) 
+u = uint 
+uL = unsigned long 
+
+C# is statically typed so everything needs declaration and types before usage 
+since types are checked at compile time. 
+
+int number; 
+float grade; 
+string name; 
+
+while vs do: 
+
+	while(condition){
+		// loop body 
+	}
+	
+	do {
+		// loop body 
+	} while (condition); 
+	
+While checks condition, then executes. Do executes, then checks condition. 
+
+for: 
+	for (init; condition; step){
+		// loop body 
+	}
+	
+	for(int i = 0; i < 10; i++){
+		Console.WriiteLine(i); 
+	}
+	
+Static Arrays: 
+	Follow any type with brackets 
+	int[] numbers = {1, 2, 3}; 
+	string[] names = {"Chandler", "Dees"}; 
+	
+foreach loops: 
+	foreach(type var in collection){
+		// loop body
+	}
+	
+	int[] numbers = {1, 2, 3} 
+	foreach(int number in numbers){
+		Console.WriteLine(number); 
+	}
+	
+Classes: 
+	visibility class name{
+		fields 
+		methods 
+	}
+	
+	public class WoodenBoard{
+		// fields 
+		private BoardType type; 
+		private int length; 
+		private int width; 
+		
+		// methods 
+		public WoodenBoard(BoardType type, int length, int width){
+			this.type = type; 
+			this.length = length; 
+			this.width = width; 
+		}
+	}
+
+Instantiating Objects: 
+	WoodenBoard wood = new WoodenBoard(BoardType.CYPRUS, 2, 4); 
+	
+C# has no limit on number of public classes or other user defined types 
+per file. 
+
+
