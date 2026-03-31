@@ -1,0 +1,32 @@
+Mostly recap but that never hurts. 
+
+Introduction to Computers: 
+	Never write your own program if there is already one available. 
+
+Data and Information: 
+	Data is the collection of ons and offs which computers store
+	and manipulate. 
+	
+	Information is the interpretation of the data by people 
+	to mean something. 
+	
+	Computers process data and humans work on information. 
+	
+	A computer does not "know" what the data it is processing 
+	actually means. As far as the computer is concerned, it 
+	is just a pattern of bits. Users give meaning to these 
+	patterns. 
+
+Data Processing: 
+	Computers are data processors. Information is fed into 
+	them; they do something with it, and then generate further
+	information. A computer program tells the computer what 
+	to do with the information coming in. 
+	
+	A computer takes in data, something is performed, then 
+	the computer returns data. Possibly altered. 
+	
+At the bottom there is always hardware: 
+	You must make sure that the code you write will actually 
+	fit in the target machine and operate at a reasonable 
+	speed. 

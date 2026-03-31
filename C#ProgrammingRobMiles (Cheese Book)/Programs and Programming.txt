@@ -1,0 +1,12 @@
+Programming - Deriving and expressing a solution to a given 
+			  problem in a form which a computer system 
+			  can understand and execute. 
+			  
+You need to be able to solve the problem yourself before 
+you can write a program to do it. 
+
+The computer has to be made to understand what you are 
+trying to tell it to do. 
+
+What is a programmer: 
+	
